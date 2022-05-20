@@ -1,50 +1,51 @@
-export const fullVersionLink = "https://resume.narze.live"
-export const sourceLink = "https://github.com/narze/resume"
+export const fullVersionLink = "https://resume.tin-sci.me/"
+export const sourceLink = "https://github.com/tinarskii/resume"
 export const ogImageUrl =
   "https://og-image.vercel.app/Resumette.png?theme=light&md=1&fontSize=200px&images=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fvercel-triangle-black.svg"
 
 export const introData = {
-  name: "Manassarn Manoonchai",
-  nickname: "Noom",
-  phone: "",
-  email: "manassarn@gmail.com",
-  github: "narze",
-  linkedin: "manassarn",
-  location: "Bangkok, Thailand",
-  website: "narze.live",
+  name: "Tinnaphat Somsang",
+  nickname: "Tin",
+  phone: "+66984176673",
+  email: "tinvv@outlook.co.th",
+  github: "tinarskii",
+  linkedin: "",
+  location: "Samut Prakan, Thailand",
+  website: "vvx.bar",
 }
 
 export const technologies = [
   {
     section: "Languages:",
     details:
-      "Ruby, JavaScript, Node.js (strong). TypeScript, SQL (proficient).",
+      "JavaScript (Strong), Node.js. TypeScript, Java, Golang, SQL",
   },
   {
     section: "Frameworks:",
     details:
-      "Ruby on Rails, ReactJS, NextJS, NestJS, SvelteJS, TailwindCSS, Bootstrap",
+      "ReactJS, NextJS, SvelteJS, VueJS, TailwindCSS",
   },
   {
     section: "Tools:",
     details:
-      "Git, Terraform, Docker, Kubernetes, Helm, ArgoCD, FluxCD, Robot Framework, Selenium, Zsh, GitHub Codespaces",
+      "Git, Fish, Docker, IntelliJ IDEA Ultimate",
   },
   {
     section: "Other:",
     details:
-      "AWS, GCP, Firebase, Vercel, DigitalOcean, Cloud66, Github Actions, CircleCI, CloudFlare",
+      "AWS, GCP, Firebase, Vercel, CloudFlare",
   },
 ]
 
 export const educations = [
   {
-    head: "B.Eng. Computer Engineering",
-    details: "Chulalongkorn University, TH. 2007-2010 (GPA 3.45)",
+    head: "Secondary School (Science and Math)",
+    details: "Assumption College Samutprakarn School, TH. 2021-",
   },
 ]
 
 export const workExperiences = [
+  /*
   {
     position: "Senior Infrastructure Software Engineer",
     company: "OPN TH",
@@ -117,74 +118,63 @@ export const workExperiences = [
       "Learned TDD practice & making early-stage startup",
     ],
   },
+  */
 ]
 
 export const projects = [
   {
-    name: "Manoonchai",
+    name: "Wrong-Lang",
     details:
-      "Modern, productive, and data-driven Thai keyboard layout. A collection of projects built with TypeScript, Elixir, Svelte",
-    url: "manoonchai.com",
+      "The Thai Mutation Language To Normal Thai Language Global Translator",
+    url: "www.wrong-lang.click",
   },
   {
-    name: "9armbot (Contributor)",
+    name: "Sveltaily",
     details:
-      "Twitch & Discord bot for 9arm (Thai technology Youtuber). I helped re-structuring the project using TypeScript & Prisma",
-    url: "github.com/thananon/twitch_tools",
+      "Template for building Svelte Kit web application with Tailwind CSS faster!",
+    url: "github.com/thevvx/Sveltaily",
   },
   {
-    name: "Dotfiles",
+    name: "MukPakPak",
     details:
-      "macOS dotfiles with setup script for self use, tested on Apple Silicon Macs (Zsh, Zinit, Dotbot, GNU Make, etc.)",
-    url: "github.com/narze/dotfiles",
+      "Collections of Thai Jokes Website",
+    url: "thjokes.tin-sci.me",
   },
   {
-    name: "#100DaysOfCode",
+    name: "The Nintod Project",
     details:
-      "My take on practicing modern frontend development by building small projects in 100 days",
-    url: "100daysofcode-narze.vercel.app",
+      "A general purpose discord bot with a lot of commands and utilities, without paying a single penny!",
+    url: "nintod.vvx.bar",
   },
   {
-    name: "Baht.rb",
-    details: "Ruby gem to convert number to Thai Baht format",
-    url: "rubygems.org/gems/baht",
+    name: "Xurlsh",
+    details: "Simple url shortener written in go",
+    url: "x.vvx.bar/public",
   },
   {
-    name: "Baht.js",
+    name: "PongFish",
     details:
-      "Convert number to Thai Baht format, but 10x faster & fully typed.",
-    url: "npmjs.com/package/baht",
+      "It's like popcat, but instead of cat, it's a fish!",
+    url: "pong-fish.vvx.bar",
   },
   {
-    name: "Resumette",
+    name: "SoundNep",
     details:
-      "Interactive & printable résumé with tailored skills fitted in single letter page (This page!)",
-    url: "resume.narze.live",
+      "Nep nep, nepu nep! (nep Nep)",
+    url: "soundnep.tin-sci.me",
   },
   {
-    name: "Popyut",
+    name: "Learn Manoonchai (Contributor)",
     details:
-      "Contributed to a clone of popcat.click meme clicking game, gone viral and got 2M visitors within one week",
-    url: "github.com/popyut/popyut",
-  },
-  {
-    name: "Resound",
-    details:
-      "Remote soundboard for meetings or streaming. Uses WebRTC instead of server to host rooms.",
-    url: "github.com/narze/resound",
-  },
-  {
-    name: "Thwordle",
-    details: "Thai language Wordle clone.",
-    url: "thwordle.narze.live",
+      "Learn Thai Manoonchai Keyboard Layout Easily!",
+    url: "learn.manoonchai.com",
   },
 ]
 
 export const interests = [
-  "Areas : Coding, Productivity & Life-hacks, Mechanical Keyboards",
-  "Typing : 120+ words per minute (Colemak Mod-DH layout)",
-  "Games : Music games, FPS, MOBA, Puzzle",
-  "Music : EDM, Rock, Japanese",
-  "Remote working is a OK. I extensively use self time tracking app for all my works.",
-  "Pets : I have 3 dogs",
+  "Areas : Coding, Music, Activism",
+  "Typing : 60+ Words Per Minute (Qwerty layout) / 40+ Words Per Minute (Kedmanee Layout)",
+  "Games : FPS, RPG, Nep",
+  "Music : Thai Rock, Thai Pop, R&B",
+  "Pets : I have 1 dog and 14 cats",
 ]
