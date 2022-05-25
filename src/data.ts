@@ -39,8 +39,8 @@ export const technologies = [
 
 export const educations = [
   {
-    head: "Secondary School (Science and Math)",
-    details: "Assumption College Samutprakarn School, TH. 2021-",
+    head: "Assumption College Samutprakarn School (Secondary School)",
+    details: "Science and Math, TH. 2021-(2026)",
   },
 ]
 
@@ -173,7 +173,7 @@ export const projects = [
 
 export const interests = [
   "Areas : Coding, Music, Activism",
-  "Typing : 60+ Words Per Minute (Qwerty layout) / 40+ Words Per Minute (Kedmanee Layout)",
+  "Typing : 70+ Words Per Minute (Qwerty layout) / 40+ Words Per Minute (Kedmanee Layout)",
   "Games : FPS, RPG, Nep",
   "Music : Thai Rock, Thai Pop, R&B",
   "Pets : I have 1 dog and 14 cats",
