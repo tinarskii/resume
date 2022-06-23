@@ -94,7 +94,7 @@
 
   <section>
     <HideToggle />
-    <h2 class="text-2xl print:text-4xl uppercase text-left">Work Experience</h2>
+    <h2 class="text-2xl print:text-4xl uppercase text-left">Activities</h2>
     <hr />
 
     <ul>
