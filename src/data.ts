@@ -11,7 +11,7 @@ export const introData = {
   github: "tinarskii",
   linkedin: "",
   location: "Samut Prakan, Thailand",
-  website: "vvx.bar",
+  website: "tin-sci.me",
 }
 
 export const technologies = [
@@ -23,7 +23,7 @@ export const technologies = [
   {
     section: "Frameworks:",
     details:
-      "ReactJS, NextJS, SvelteJS, VueJS, TailwindCSS",
+      "SolidJS, ReactJS, NextJS, SvelteJS, VueJS, TailwindCSS",
   },
   {
     section: "Tools:",
@@ -33,14 +33,18 @@ export const technologies = [
   {
     section: "Other:",
     details:
-      "AWS, GCP, Firebase, Vercel, CloudFlare",
+      "AWS, GCP, Microsoft Azure, Firebase, Vercel, CloudFlare",
   },
 ]
 
 export const educations = [
   {
-    head: "Assumption College Samutprakarn School (Secondary School)",
-    details: "Science and Math, TH. 2021-(2026)",
+    head: "Assumption College Samutprakarn School (Primary)",
+    details: "TH. 2014-2021",
+  },
+  {
+    head: "Assumption College Samutprakarn School (Secondary)",
+    details: "i-Science, TH. 2021-(2026)",
   },
 ]
 
@@ -149,7 +153,7 @@ export const projects = [
   {
     name: "Xurlsh",
     details: "Simple url shortener written in go",
-    url: "x.vvx.bar/public",
+    url: "x.vvx.bar",
   },
   {
     name: "PongFish",
@@ -172,9 +176,9 @@ export const projects = [
 ]
 
 export const interests = [
-  "Areas : Coding, Music, Activism",
+  "Areas : Coding, Music, Activism, Astronomy, Science, Mathematics, Photography, Filmmaking",
   "Typing : 70+ Words Per Minute (Qwerty layout) / 40+ Words Per Minute (Kedmanee Layout)",
   "Games : FPS, RPG, Nep",
   "Music : Thai Rock, Thai Pop, R&B",
-  "Pets : I have 1 dog and 14 cats",
+  "Pets : I have 1 dog and 14 cats (most of them are dead)",
 ]
