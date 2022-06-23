@@ -12,7 +12,7 @@
     projects,
     sourceLink,
     technologies,
-    workExperiences,
+    activities,
   } from "./data"
 
   let editMode = false
@@ -97,9 +97,14 @@
     <h2 class="text-2xl print:text-4xl uppercase text-left">Work Experience</h2>
     <hr />
 
-    {#each workExperiences as exp}
-      <Work {...exp} />
-    {/each}
+    <ul>
+      {#each activities as act}
+        <li>
+          <HideToggle />
+          <strong>{act.name}</strong>, {act.details}
+        </li>
+      {/each}
+    </ul>
   </section>
 
   <section>
