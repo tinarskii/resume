@@ -50,7 +50,7 @@ export const educations = [
 
 export const workExperiences = []
 
-export const activites = [
+export const activities = [
   {
     name: "Code In The Wind (Participant)",
     details:
