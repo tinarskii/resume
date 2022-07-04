@@ -56,6 +56,11 @@ export const activities = [
     details:
       "Game show where contestants implement a web page according to the reference screenshot and a set of objectives using Tailwind CSS",
   },
+    {
+    name: "Stupid Hackathon in Thailand 6 (Participant)",
+    details:
+      "The Stupid Hackathon in Thailand is a collaborative hackathon in Thailand with non-competitive intentions and no focuses on business value",
+  },
 ];
 
 export const projects = [
